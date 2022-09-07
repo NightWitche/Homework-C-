@@ -47,11 +47,11 @@ void NotEvenPosArray (int[] arr)
 }
 NotEvenPosArray(array);*/
 
-/*// Задайте массив вещественных чисел. Найдите разницу между максимальным 
+// Задайте массив вещественных чисел. Найдите разницу между максимальным 
 // и минимальным элементов массива.
 
-int[] array = new int[15];
-void MinMaxArray(int[] arr)
+double[] array = new double[15];
+void MinMaxArray(double[] arr)
 {
   double MinNum= 0;
   double MaxNum= 0;
@@ -68,7 +68,7 @@ void MinMaxArray(int[] arr)
      
  }
      Console.WriteLine($"Min number array {MinNum}\nMax number array {MaxNum}");
-     Console.WriteLine($"{MaxNum - Math.Abs(MinNum)}");
+     Console.WriteLine($"{MaxNum - MinNum}");
 }
-MinMaxArray(array);*/
+MinMaxArray(array);
 
