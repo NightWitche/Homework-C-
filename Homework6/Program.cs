@@ -2,18 +2,7 @@
 // Посчитайте, сколько чисел больше 0 ввёл пользователь.
 
 Console.Write("Enter numbers...");
-int cross = Convert.Parse(Console.ReadLine());
-int[] array = new int[cross];
-int count = 0;
-for (int i=0; i<array.Length;i++)
-{
-    if(array[i]>0)
-    {
-      count++;
-    }
-    Console.WriteLine(count);
-}
-
+string num = Console.ReadLine();
 
 
 
