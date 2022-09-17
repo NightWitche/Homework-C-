@@ -86,4 +86,5 @@ long EnterNumbers(string input)
   long  output = Convert.ToInt64(Console.ReadLine());
   return output;
 }
-// Работает с числами не больше 4х и я беспонятия как увеличить обьем данных.
+// Работает с числами не больше 4х и я беспонятия как увеличить обьем данных. 
+ 
